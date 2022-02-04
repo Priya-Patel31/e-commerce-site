@@ -1,1 +1,29 @@
-@import url("../landing_pa")
+@import url("../landing_page/landing_page.css");
+
+.products-container{
+    display: grid;
+    grid-template-rows: 100px auto ;
+}
+.nav-container{
+    grid-row-start:1;
+    grid-row-end:2;
+}
+.main-content-container{
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-row-start: 2;
+    grid-row-end:3;
+    border:1px solid red;
+}
+.hero-section-container{
+    border:1px solid red;
+    background-color: black;
+}
+.filters-heading {
+    justify-content: space-between;
+    align-items:center;
+}
+.filter-type{
+    border-bottom:2px solid rgb(165, 163, 163);
+    padding-bottom: 0.2rem;
+  }

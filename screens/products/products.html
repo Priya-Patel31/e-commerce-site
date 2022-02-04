@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
-    <link rel="stylesheet" href="/common.css">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="/index.css" />
     <link
       rel="stylesheet"
-      href="https://quizzical-mclean-5fb78e.netlify.app/component/component.css"
+      href="https://clean-u-i.netlify.app/component/component.css"
     />
     <script
       src="https://kit.fontawesome.com/482acc5102.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./products.css" />
   </head>
   <body>
-    <div class="">
+    <main class="products-container">
       <!-- ********************************** Navbar started ************************************ -->
-      
+
       <nav class="nav-container">
         <!-- ************************ Left navBar*************** -->
         <div class="left-navbar">
@@ -84,13 +85,89 @@
           </ul>
         </div>
         <!-- ******************navbar right ended**************** -->
-
       </nav>
-<!-- 
+      <!-- 
       ********************************** Navbar ended ************************************ -->
 
+      <!-- **********************************Main section started ****************************** -->
 
+      <div class="main-content-container">
+        <div class="sidebar">
+          <div class="filters-container">
+            <div class="filters-heading filter-type flex-row my-2">
+              <p class="mr-1">FILTERS</p>
+              <span class="text-xxs">CLEAR ALL</span>
+            </div>
 
-    </div>
+            <p class="mt-2">SORT</p>
+            <!-- <div class="space-1rem"></div> -->
+            <ul class="filter-type">
+              <li class="sidebar-list-item my-2">
+                <input type="radio" value="sort-by-price" />
+                <label for="sort-by-price"> Price High to low </label>
+              </li>
+              <div class=""></div>
+              <li class="sidebar-list-item mb-2">
+                <input type="radio" value="sort-by-price" />
+                <label for="sort-by-price"> Price Low to high </label>
+              </li>
+            </ul>
+
+            <p class="my-2">Categories</p>
+            <ul class="filter-type">
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="Harness" />
+                <label for="harness"> Harness </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="climbing rope" />
+                <label for="climbing rope"> Climbing Rope </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="Carribeners" />
+                <label for="Carribeners"> Carribeners </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="quickdraws" />
+                <label for="quickdraws"> Quickdraws </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="shoes" />
+                <label for="shoes"> Shopes </label>
+              </li>
+            </ul>
+
+            <p class="text-xs my-2">Rating</p>
+            <ul>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="5stars" />
+                <label for="5star"> 5 stars</label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="4stars" />
+                <label for="4stars"> 4 stars </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="3stars" />
+                <label for="3stars"> 3 stars </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="2stars" />
+                <label for="2stars">2 stars </label>
+              </li>
+              <li class="sidebar-list-item mb-2">
+                <input type="checkbox" value="1stars" />
+                <label for="1stars"> 1 star </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hero-section-container">
+
+          
+        </div>
+      </div>
+    </main>
   </body>
 </html>
