@@ -1,0 +1,64 @@
+
+.footer-container,.footer-items{
+    justify-content: center;
+    align-items:center;
+   gap:1rem;
+    font-size:2rem;
+}
+.footer-items{
+    gap:1.5rem;
+}
+.footer-container{
+    background-color:var(--primary-color);
+    
+    
+}
+
+
+
+@media only screen and (max-width:800px){
+    *{
+        font-size: 80%;
+    }
+    .hamburger-icon{
+        font-size: 1.5rem;
+    }
+    .navbar-link-list-item{
+        font-size: 1.3rem;
+    }
+    .nav-list-link{
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (max-width:768px) {
+    .navbar-container{
+        padding:0.8rem
+    }
+    .logo{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+    
+    
+   
+}
+@media only screen and (max-width:600px) {
+    .navbar-link-list-item{
+        display: none;
+    }
+    .badge-icon{
+        font-size: 1rem !important;
+    }
+    .icon-size{
+        font-size: 1rem;
+    }
+
+    .navbar-link-list-item{
+        font-size: 1.5rem;
+    }
+    
+   
+}
