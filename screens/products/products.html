@@ -11,12 +11,14 @@
       rel="stylesheet"
       href="https://clean-u-i.netlify.app/component/component.css"
     />
+
+    <link rel="stylesheet" href="./products.css" />
     <script
       src="https://kit.fontawesome.com/482acc5102.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./products.css" />
   </head>
+
   <body>
     <main class="products-container">
       <!-- ********************************** Navbar started ************************************ -->
@@ -93,79 +95,223 @@
 
       <div class="main-content-container">
         <div class="sidebar">
-          <div class="filters-container">
+          <div class="filters-container mx-2">
             <div class="filters-heading filter-type flex-row my-2">
-              <p class="mr-1">FILTERS</p>
+              <p class="mr-1 text-sm font-bold">FILTERS</p>
               <span class="text-xxs">CLEAR ALL</span>
             </div>
 
-            <p class="mt-2">SORT</p>
-            <!-- <div class="space-1rem"></div> -->
+            <p class="mt-2 font-bold">SORT</p>
             <ul class="filter-type">
-              <li class="sidebar-list-item my-2">
-                <input type="radio" value="sort-by-price" />
-                <label for="sort-by-price"> Price High to low </label>
+              <li class="sidebar-list-item my-2 list-style-none">
+                <input type="radio" value="price-high-to-low" name="price" />
+                <label for="price-high-to-low"> Price High to low </label>
               </li>
-              <div class=""></div>
-              <li class="sidebar-list-item mb-2">
-                <input type="radio" value="sort-by-price" />
-                <label for="sort-by-price"> Price Low to high </label>
+              <li class="sidebar-list-item mb-2 list-style-none">
+                <input type="radio" value="price-low-to-high" name="price" />
+                <label for="price-low-to-high"> Price Low to high </label>
               </li>
             </ul>
 
-            <p class="my-2">Categories</p>
+            <p class="my-2 font-bold">Categories</p>
             <ul class="filter-type">
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="Harness" />
                 <label for="harness"> Harness </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="climbing rope" />
                 <label for="climbing rope"> Climbing Rope </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="Carribeners" />
                 <label for="Carribeners"> Carribeners </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="quickdraws" />
                 <label for="quickdraws"> Quickdraws </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="shoes" />
                 <label for="shoes"> Shopes </label>
               </li>
             </ul>
 
-            <p class="text-xs my-2">Rating</p>
+            <p class="text-xs my-2 font-bold">Rating</p>
             <ul>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="5stars" />
                 <label for="5star"> 5 stars</label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="4stars" />
                 <label for="4stars"> 4 stars </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="3stars" />
                 <label for="3stars"> 3 stars </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="2stars" />
                 <label for="2stars">2 stars </label>
               </li>
-              <li class="sidebar-list-item mb-2">
+              <li class="sidebar-list-item mb-2 list-style-none">
                 <input type="checkbox" value="1stars" />
                 <label for="1stars"> 1 star </label>
               </li>
             </ul>
           </div>
         </div>
+        <!-- ********************************************Main Section started************************* -->
 
         <div class="hero-section-container">
+          <div class="space-4rem"></div>
+          <div class="vertical-card-outer-container">
+            <div class="vertical-card-container">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
+                />
+                <span class="badge bg-primary badge-trending">New</span>
+              </div>
+              <div class="vertical-card-text-container">
+                <div class="vertical-card-content">
+                  <div class="flex-row vertical-card-heading mb-1">
+                    <h3>Evolv Shoes</h3>
+                    <i class="fas fa-heart text-sm text-grey"></i>
+                  </div>
+                  <span class="discount-price font-semibold">Rs.3000</span>
+                  <span class="original-price">Rs.4000</span>
+                </div>
+              </div>
+              <button class="button primary-button-pink mt-1">
+                <i class="fas fa-shopping-cart icon-white"></i>
+                Add to cart
+              </button>
+            </div>
 
-          
+            <div class="vertical-card-container">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/files/600x600_54a11123-5968-49f9-a72b-169119620e75.jpg?v=1615192845"
+                />
+                <span class="badge bg-primary badge-trending">New</span>
+              </div>
+              <div class="vertical-card-text-container">
+                <div class="vertical-card-content">
+                  <div class="flex-row vertical-card-heading mb-1">
+                    <h3>Climbing harness</h3>
+                    <i class="fas fa-heart text-sm text-grey"></i>
+                  </div>
+                  <span class="discount-price font-semibold">Rs.3000</span>
+                  <span class="original-price">Rs.4000</span>
+                </div>
+              </div>
+              <button class="button primary-button-pink mt-1">
+                <i class="fas fa-shopping-cart icon-white"></i>
+                Add to cart
+              </button>
+            </div>
+
+            <div class="vertical-card-container">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
+                />
+                <span class="badge bg-primary badge-trending">New</span>
+              </div>
+              <div class="vertical-card-text-container">
+                <div class="vertical-card-content">
+                  <div class="flex-row vertical-card-heading mb-1">
+                    <h3>Evolv Geshido Lace Shoes</h3>
+                    <i class="fas fa-heart text-sm text-grey"></i>
+                  </div>
+                  <span class="discount-price font-semibold">Rs.3000</span>
+                  <span class="original-price">Rs.4000</span>
+                </div>
+              </div>
+              <button class="button primary-button-pink mt-1">
+                <i class="fas fa-shopping-cart icon-white"></i>
+                Add to cart
+              </button>
+            </div>
+
+            <div class="vertical-card-container">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
+                />
+                <span class="badge bg-primary badge-trending">New</span>
+              </div>
+              <div class="vertical-card-text-container">
+                <div class="vertical-card-content">
+                  <div class="flex-row vertical-card-heading mb-1">
+                    <h3>Evolv Geshido Lace Shoes</h3>
+                    <i class="fas fa-heart text-sm text-grey"></i>
+                  </div>
+                  <span class="discount-price font-semibold">Rs.3000</span>
+                  <span class="original-price">Rs.4000</span>
+                </div>
+              </div>
+              <button class="button primary-button-pink mt-1">
+                <i class="fas fa-shopping-cart icon-white"></i>
+                Add to cart
+              </button>
+            </div>
+
+            <div class="vertical-card-container">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
+                />
+                <span class="badge bg-primary badge-trending">New</span>
+              </div>
+              <div class="vertical-card-text-container">
+                <div class="vertical-card-content">
+                  <div class="flex-row vertical-card-heading mb-1">
+                    <h3>Evolv Geshido Lace Shoes</h3>
+                    <i class="fas fa-heart text-sm text-grey"></i>
+                  </div>
+                  <span class="discount-price font-semibold">Rs.3000</span>
+                  <span class="original-price">Rs.4000</span>
+                </div>
+              </div>
+              <button class="button primary-button-pink mt-1">
+                <i class="fas fa-shopping-cart icon-white"></i>
+                Add to cart
+              </button>
+            </div>
+
+            <div class="vertical-card-container">
+              <div class="vertical-image-container">
+                <img
+                  class="vertical-image"
+                  src="https://cdn.shopify.com/s/files/1/0550/0465/9885/products/shoe-15.jpg?v=1615348374"
+                />
+                <span class="badge bg-primary badge-trending">New</span>
+              </div>
+              <div class="vertical-card-text-container">
+                <div class="vertical-card-content">
+                  <div class="flex-row vertical-card-heading mb-1">
+                    <h3>Evolv Geshido Lace Shoes</h3>
+                    <i class="fas fa-heart text-sm text-grey"></i>
+                  </div>
+                  <span class="discount-price font-semibold">Rs.3000</span>
+                  <span class="original-price">Rs.4000</span>
+                </div>
+              </div>
+              <button class="button primary-button-pink mt-1">
+                <i class="fas fa-shopping-cart icon-white"></i>
+                Add to cart
+              </button>
+            </div>
+            <div class="space-2rem"></div>
+          </div>
         </div>
       </div>
     </main>

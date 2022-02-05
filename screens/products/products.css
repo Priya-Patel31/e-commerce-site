@@ -1,5 +1,9 @@
 @import url("../landing_page/landing_page.css");
 
+.sidebar{
+    background-color:var(--primary-color);
+    color:var(--light-color);
+}
 .products-container{
     display: grid;
     grid-template-rows: 100px auto ;
@@ -13,17 +17,19 @@
     grid-template-columns: 250px auto;
     grid-row-start: 2;
     grid-row-end:3;
-    border:1px solid red;
-}
-.hero-section-container{
-    border:1px solid red;
-    background-color: black;
 }
 .filters-heading {
     justify-content: space-between;
     align-items:center;
 }
 .filter-type{
-    border-bottom:2px solid rgb(165, 163, 163);
+    border-bottom:2px solid var(--light-color);
     padding-bottom: 0.2rem;
+  }
+  .vertical-card-heading{
+      gap:1rem;
+      justify-content: space-between;
+  }
+  .vertical-card-container{
+      cursor:pointer;
   }

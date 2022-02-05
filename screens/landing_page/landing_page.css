@@ -46,10 +46,7 @@
 .vertical-card-container{
     /* border:1px solid red; */
 }
-.vertical-card-text-container{
-    display: flex;
-    justify-content: center;
-}
+
 .brands-container{
     display: flex;
     align-items:flex-start;
