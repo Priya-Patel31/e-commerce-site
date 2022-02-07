@@ -1,14 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup</title>
-</head>
-<body>
+
+    <link
+      rel="stylesheet"
+      href="https://clean-u-i.netlify.app/component/component.css"
+    />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="/index.css" />
+
+    <link rel="stylesheet" href="./products.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <script
+      src="https://kit.fontawesome.com/482acc5102.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="signup-container">
-        
+      <div class="background-image-container">
+        <img
+          class="form-background-image blob-top-left"
+          src="/screens/images/blob.svg"
+          alt="form-bg"
+        />
+        <img
+          class="form-background-image blob-bottom-right"
+          src="/screens/images/blob.svg"
+          alt="form-bg"
+        />
+      </div>
+      <div class="authentication-details-container flex-row mx-2">
+        <div class="authentication-image-container">
+          <img src="/screens/images/sign up-cuate.svg" alt="signup-img" />
+        </div>
+        <div class="form-components-container flex-col">
+          <div class="wrapper p-2 my-2 flex-col">
+            <h2 class="my-2 form-heading text-sm">Signup</h2>
+            <form class="signup-form-container flex-col">
+              <ul>
+                <li class="list-style-none text-xs">
+                  <div class="email-field-container">
+                  <label class="text-xs" for="email">Email address</label>
+                  <input
+                    id="email"
+                    class="input-field form-control"
+                    type="email"
+                    placeholder="priya@gmail.com"
+                    required
+                  />
+                  <i class="fas fa-envelope email-icon text-xs"></i>
+                </div>
+                </li>
+                
+                <li class="list-style-none">
+                  <label class="text-xs" for="password">Password</label>
+                  <div class="password-field-container">
+                  <input
+                    id="password"
+                    class="input-field form-control"
+                    type="password"
+                    placeholder="•••••••••"
+                    required 
+                  />
+                  <i class="fas fa-eye password-eye-icon text-xs"></i>
+                </div>
+                 
+                </li>
+                <li class="list-style-none">
+                  <input class="my-2" type="checkbox" />
+                  <label class="text-xs" for="terms"
+                    >I accept all the terms and conditions</label
+                  >
+                </li>
+              </ul>
+              <button class="button primary-button-pink my-2 text-xs">
+                Create New Account
+              </button>
+              <div>
+                <a class="text-xs" href=""
+                  >Already have an account<span
+                    ><i class="fas fa-arrow-right ml-2"></i></span
+                ></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

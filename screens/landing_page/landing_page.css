@@ -49,15 +49,19 @@
 
 .brands-container{
     display: flex;
-    align-items:flex-start;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap:wrap;
-    gap:2.5rem;
+    gap:1rem;
 
 }
 .brand{
     width:200px;
-    height:200px;
+    height:100px;
 }
+.brand img{
+    width:150px;
+    height:100px;
+}
+
 
 

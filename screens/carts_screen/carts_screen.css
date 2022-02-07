@@ -1,0 +1,16 @@
+.width-800{
+    max-width:800px;
+    width:100%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+.cart-heading{
+    text-align: center;
+}
+.col-60-pc{
+    width:calc(60% - 2rem);
+}
+.col-40-pc{
+    width:40%;
+}

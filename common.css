@@ -1,15 +1,23 @@
 :root{
-  --primary-color:#1a093f;
+  --primary-color:#031b88;
   --pink-color: #fd5056;
   --dark-pink:#f50057;
   --light-color:white;
+  --dark-color:rgba(0, 0, 0, 0.87);
 }
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  
 
+}
+body{
+  overflow-x: hidden;
+  max-width: 2000px;
+  margin: auto;
+   
 }
 .list-style-none{
   list-style: none;
@@ -24,13 +32,29 @@ a{
 .text-pink{
   color:var(--dark-pink);
 }
+.text-grey{
+  color:var(--dark-grey);
+}
 ul{
   margin:0px;
   padding: 0px;
 }
+.font-md{
+  font-size: 0.8rem;
+}
+.flex-justify{
+  justify-content: space-between;
+}
+.flex-row{
+  display: flex;
+  flex-wrap: wrap;
 
+}
 .icon-white{
   color:var(--light-color);
+}
+.icon-black{
+  color:var(--)
 }
 .space-1rem{
   width:100%;
