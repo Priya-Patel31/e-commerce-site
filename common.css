@@ -3,6 +3,7 @@
   --pink-color: #fd5056;
   --dark-pink:#f50057;
   --light-color:white;
+  --lighter-white-color:#f0f8ff;
   --dark-color:rgba(0, 0, 0, 0.87);
 }
 *{
@@ -42,13 +43,9 @@ ul{
 .font-md{
   font-size: 0.8rem;
 }
-.flex-justify{
-  justify-content: space-between;
-}
+
 .flex-row{
   display: flex;
-  flex-wrap: wrap;
-
 }
 .icon-white{
   color:var(--light-color);
@@ -78,6 +75,30 @@ ul{
 }
 .mx-3{
   margin: 0 2rem;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items:center;
+}
+.flex-wrap{
+  flex-wrap:wrap;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-evenly{
+  justify-content: space-evenly;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.gap-1{
+  gap:1rem;
+}
+.w-100{
+  width:100%;
 }
 @media only screen and (max-width:800px){
   *{
